@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(10, 10, 10);
+  font-family: 'Helvetica', sans-serif;
+  line-height: 1.6;
+  font-size: 1.2rem;
+  color: rgb(255, 255, 255);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: rgba(255, 246, 236, 0.884);
+}
+
+a:hover {
+  color: rgb(255, 255, 255);
+}
+
+.header {
+  background-image: url('https://source.unsplash.com/random');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: soft-light;
+  top: 0;
+  left: 0;
+  background-color: rgba(71, 71, 71, 0.678);
+  backdrop-filter: blur(4px);
+  border-right: solid 1.4rem rgb(37, 37, 37);
+}
+
+.jumbotron {
+  height: 100vh;
+}
+
+.brand-img {
+  width: 9%;
+  height: 100%;
+  object-fit: cover;
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-weight: 600;
+  line-height: 3rem;
+  text-shadow: rgb(192, 187, 162) 2px 0 9px;
+  margin-bottom: 2.3rem;
+}
+
+.header-content p {
+  font-size: 1.6rem;
+}
+
+.footer p {
+  font-size: 1.05rem;
+}
+
+.form-title {
+  margin-top: 23rem;
+}
+
+.btn-primary {
+  background-color: rgb(62, 113, 184);
+  padding: 0.8rem 5rem;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: rgb(78, 136, 216);
+  border: none;
+}
+
+.facebook a {
+  text-decoration: none;
+}
+
+.fa-facebook-square {
+  margin-right: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.join-btn {
+  width: 100%;
+  background-color: rgb(39, 39, 39);
+  border: none;
+  height: 3rem;
+  font-size: 1.3rem;
+  margin-top: 1.5rem;
+  text-shadow: rgb(192, 187, 162) 2px 0 5px;
+}
+
+.join-btn:hover {
+  background-color: rgb(44, 44, 44);
+  border-radius: 5px;
+  border: solid 0.75px rgba(163, 161, 161, 0.884);
+  box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000,
+    5px 5px 15px 5px rgba(121, 121, 121, 0);
+}
+
+.form-control,
+.form-control:focus {
+  background-color: rgb(32, 32, 32);
+  border: solid 0.75px rgba(163, 162, 162, 0.884);
+  color: azure;
+  border-radius: 2;
+  height: 2.75rem;
+}
+
+.form-control:focus {
+  background-color: rgb(14, 14, 14);
+}
+
+.form-container {
+  font-size: 1rem;
+  height: 100vh;
+  padding: 0 5rem;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 1rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgba(44, 44, 44, 0.918);
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(43, 43, 43);
+  border-radius: 3px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(37, 37, 37);
+}
+
+.invalid-feedback {
+  display: block;
+}
+
+.valid-feedback {
+  display: block;
+}
+
+.form-footer {
+  font-size: 0.9rem;
+  margin: 2rem 0;
+}
