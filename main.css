@@ -106,6 +106,12 @@ h1 {
   background-color: rgba(81, 252, 146, 0.884);
   border-radius: 5px;
   transition: filter 0.3s;
+  color: rgba(255, 255, 255, 0.822);
+}
+
+.join-btn:hover {
+  background-color: rgba(74, 212, 127, 0.884);
+  color: rgb(255, 255, 255);
 }
 
 .brand-img {
